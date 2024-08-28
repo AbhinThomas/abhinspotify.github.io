@@ -1,0 +1,747 @@
+h1{
+    color: forestgreen;
+    margin-left: 4px;
+    margin: 3px;
+}
+body{
+    margin: 0;
+}
+.header{
+    height: 83px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: flex-between;
+}
+.logo{
+    width: 50%;
+    height: 83px;
+    background-color: black;
+    float: left;
+    display:flex;
+}
+.logo-adj{
+    height: 36px;
+    width: 36px;
+    margin-top: 19px;
+    margin-left: 224px;
+}
+.details{
+    width: 50%;
+    height: 83px;
+    background-color: black;
+    float: left;
+    display: flex;
+}
+.spot-text{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-left: 10px;
+}
+.prem{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 34px;
+    margin-left: 86px;
+    font-size: 16px;
+}
+.prem:hover {
+    color: rgb(16, 155, 51); 
+    text-decoration: none; 
+}
+.sup{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 34px;
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.sup:hover {
+    color: rgb(16, 155, 51); 
+    text-decoration: none; 
+}
+.dow{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 34px;
+    margin-left: 37px;
+    font-size: 16px;
+}
+
+.dow:hover {
+    color: rgb(16, 155, 51); 
+    text-decoration: none; 
+}
+.line{
+    color: rgb(255, 255, 255);
+    margin-top: 28px;
+    margin-left: 38px;
+    font-size: 22px;
+}
+.sign{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 34px;
+    margin-left: 39px;
+    font-size: 16px;
+}
+
+.sign:hover {
+    color: rgb(16, 155, 51); 
+    text-decoration: none; 
+}
+.log{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 34px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.log:hover {
+    color: rgb(16, 155, 51); 
+    text-decoration: none; 
+}
+.col-body{
+    background: rgb(252,0,234);
+    background: linear-gradient(102deg, rgba(252,0,234,1) 0%, rgba(193,30,183,1) 47%, rgba(152,0,246,1) 100%);
+    width: 100%;
+    height: 598px;
+    overflow: hidden;
+  
+}
+
+
+.bubble{
+    height: 882px;
+    width: 1342px;
+    margin-top: 0px;
+    margin-left: 200px;
+}
+.body-1{
+    width: 100%;
+    height: 570px;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+.phone{
+    height: 547px;
+    width: 278px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top: -786px;
+    margin-left: 296px;
+    border-radius: 38px;
+}
+.notch{
+    background-color: black;
+    height: 7px;
+    width: 47px;
+    margin-top: 25px;
+    margin-left: 114px;
+    border-radius: 131px;
+}
+.phone-screen{
+    width: 259px;
+    height: 445px;
+    padding-left: 10px;
+    padding-top: 24px;
+}
+.g-color{
+    width: 100%;
+    height: 454px;
+    background: rgb(252,0,234);
+    background: linear-gradient(180deg, rgba(252,0,234,1) 0%, rgba(175,30,193,1) 47%, rgba(152,0,246,1) 100%);
+    position: relative;
+}
+.large-texts{
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-weight: bold;
+    margin-top: -707px;
+    margin-left: 655px;
+    font-size: 63px;
+}
+.spotify-button {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: -38px;
+    margin-left: 651px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+    transition: transform 0.2s ease-in-out; /* Smooth transition for transform */
+    
+    
+}
+.spotify-button:hover{
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+    
+}
+.y-spotify{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 65px;
+    margin-left: 623px;
+    font-size: 41px;
+}
+.play{
+    height: 150px;
+    width: 150px;
+    margin-left: 242px;
+    margin-top:30px;
+}
+.library{
+    height: 150px;
+    width: 150px;
+    margin-left: 159px;
+    margin-top: 14px;
+}
+.favorite{
+    height: 150px;
+    width: 150px;
+    margin-left: 176px;
+    margin-top: 14px;
+}
+.thunder{
+    height: 150px;
+    width: 150px;
+    margin-left: 170px;
+    margin-top: 14px;
+}
+.pyf{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 37px;
+    margin-left: 228px;
+    font-size: 21px;
+}
+.pme{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: -46px;
+    margin-left: 529px;
+    font-size: 21px;
+}
+.miy{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: -44px;
+    margin-left: 891px;
+    font-size: 21px;
+}
+.smd{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: -46px;
+    margin-left: 1200px;
+    font-size: 21px;
+}
+.pyf-p{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    margin-top: -2px;
+    margin-left: -926px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5; 
+}
+.pme-p{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    margin-top: -81px;
+    margin-left: -326px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+.miy-p{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    margin-top: -86px;
+    margin-left: 339px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+.smd-p{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    margin-top: -67px;
+    margin-left: 989px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+.gl-text{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding-top: 180px;
+    padding-left: 475px;
+    font-size: 52px;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+}
+.details-white{
+    width: 100%;
+    height: 531px;
+    overflow: scroll;
+    
+}
+.details-1{
+    padding-top: 74px;
+    padding-left: 297px;
+    font-size: 18px;
+    display: flow-root;
+   
+}
+.details-1st-para{
+    font-family: Arial, sans-seif;
+    font-weight: bold;
+    
+}
+.details-1-inside{
+    font-family: Arial, sans-seif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flow-root;
+}
+.details-2{
+    margin-top: 64px;
+    padding-left: 297px;
+    font-size: 17px;
+}
+.details-2nd-para{
+    font-family:Arial, sans-seif; 
+    font-weight: bold;
+}
+.details-2nd-inside{
+    font-family: Arial, sans-seif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flow-root;
+}
+.details-3{
+    padding-top: 63px;
+    padding-left: 296px;
+    font-size: 17px;
+}
+.details-3rd-para{
+    font-family:Arial, sans-seif; 
+    font-weight: bold;
+}
+.details-3rd-inside{
+    font-family: Arial, sans-seif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flow-root;
+}
+.details-4{
+    padding-top: 52px;
+    padding-left: 296px;
+    font-size: 17px;
+}
+.details-4th-para{
+    font-family:Arial, sans-seif; 
+    font-weight: bold;
+}
+.details-4th-inside{
+    font-family: Arial, sans-seif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flow-root;
+}
+.got-q{
+    margin-top: 34px;
+    margin-left: 608px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Arial, sans-seif;
+}
+.letsplay{
+    width: 100%;
+    height: 448px;
+    background: rgb(252,0,234);
+    background: linear-gradient(93deg, rgba(252,0,234,1) 0%, rgba(147,30,193,1) 47%, rgba(152,0,246,1) 100%);
+    overflow:hidden;
+
+}
+#letsp-bubble{
+    height: 1010px;
+    margin-top: -388px;
+    margin-left: 81px;
+    overflow: hidden;
+
+}
+.ready-lp{
+    margin-top: -307px;
+    margin-left: 464px;
+    font-size: 74px;
+    font-weight: bold;
+    font-family: Arial, sans-seif;
+    color: rgb(255, 255, 255);
+
+}
+.footer{
+    width: 100%;
+    height: 589px;
+    background: #000000;
+    margin-top: 114px;
+}
+.cont-div{
+    width: 712px;
+    height: 341px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -58px;
+    margin-left: 388px;
+}
+.foot-h1{
+    position: relative;
+    color: rgb(168, 172, 185);
+    top: 20px;
+    left: 46px;
+    font-size: 13px;
+    font-family: Arial, sans-seif;
+    font-weight: bolder;
+}
+.f-about{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: 38px;
+    left: 48px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-about:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-jobs{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: 83px;
+    left: 4px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-jobs:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-records{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: 129px;
+    left: -32px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-records:hover{
+    color:  rgb(16, 155, 51); 
+}        
+.foot-h2{
+    position: relative;
+    color: rgb(168, 172, 185);
+    top: -37px;
+    left: 210px;
+    font-size: 13px;
+    font-family: Arial, sans-seif;
+    font-weight: bolder;
+}
+.f-art{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -22px;
+    left: 212px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-art:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-dev{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: 24px;
+    left: 138px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-dev:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-add{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: 71px;
+    left: 60px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-add:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-invest{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: 118px;
+    left: -20px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-invest:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-vend{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: 164px;
+    left: -84px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-vend:hover{
+    color:  rgb(16, 155, 51); 
+}
+.foot-h3{
+    position: relative;
+    color: rgb(168, 172, 185);
+    top: -96px;
+    left: 388px;
+    font-size: 13px;
+    font-family: Arial, sans-seif;
+    font-weight: bolder;
+}
+.f-sup{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -83px;
+    left: 388px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-sup:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-webp{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -36px;
+    left: 331px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-webp:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-frmob{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -4px;
+    left: 388px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  
+}
+.f-frmob:hover{
+    color:  rgb(16, 155, 51); 
+}
+.foot-h4{
+    position: relative;
+    color: rgb(168, 172, 185);
+    top: -187px;
+    left: 553px;
+    font-size: 13px;
+    font-family: Arial, sans-seif;
+    font-weight: bolder;
+}
+.f-pre-ind{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -172px;
+    left: 553px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.f-pre-ind:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-pre-duo{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -154px;
+    left: 553px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-pre-duo:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-pre-fam{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -109px;
+    left: 461px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-pre-fam:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-pre-std{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -84px;
+    left: 557px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.f-pre-std:hover{
+    color:  rgb(16, 155, 51); 
+}
+.f-sptfr{
+    position: relative;
+    color: rgb(253, 253, 253);
+    top: -59px;
+    left: 554px;
+    font-family: Arial, sans-seif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f-sptfr:hover{
+    color:  rgb(16, 155, 51); 
+}
+.footlogo{
+    position: relative;
+    height: 41px;
+    top: 76px;
+    left: 209px;
+}
+.foot-text{
+    position: relative;
+    font-size: 27px;
+    font-family: Arial, sans-seif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    top: 9px;
+    left: 264px;
+}
+.footlegal{
+    position: relative;
+    color: rgb(151, 148, 148);
+    top: 48px;
+    left: 222px;
+    font-family: Arial, sans-seif;
+    font-size: 12px;
+    
+}
+.footlegal:hover{
+    color:  rgb(16, 155, 51); 
+}
+.footspc{
+    position: relative;
+    color: rgb(151, 148, 148);
+    top: 48px;
+    left: 263px;
+    font-family: Arial, sans-seif;
+    font-size: 12px;
+}
+.footspc:hover{
+    color:  rgb(16, 155, 51); 
+}
+.footpp{
+    position: relative;
+    color: rgb(151, 148, 148);
+    top: 48px;
+    left: 305px;
+    font-family: Arial, sans-seif;
+    font-size: 12px;
+}
+.footpp:hover{
+    color:  rgb(16, 155, 51); 
+}
+.footcok{
+    position: relative;
+    color: rgb(151, 148, 148);
+    top: 48px;
+    left: 349px;
+    font-family: Arial, sans-seif;
+    font-size: 12px;
+}
+.footcok:hover{
+    color:  rgb(16, 155, 51); 
+}
+.footaads{
+    position: relative;
+    color: rgb(151, 148, 148);
+    top: 48px;
+    left: 394px;
+    font-family: Arial, sans-seif;
+    font-size: 12px;
+}
+.footaads:hover{
+    color:  rgb(16, 155, 51); 
+}
+.footacbl{
+    position: relative;
+    color: rgb(151, 148, 148);
+    top: 48px;
+    left: 431px;
+    font-family: Arial, sans-seif;
+    font-size: 12px;
+}
+.footacbl:hover{
+    color:  rgb(16, 155, 51); 
+}
+
+
+
+
+
